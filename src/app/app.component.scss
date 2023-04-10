@@ -1,0 +1,35 @@
+.root-container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ios-frame {
+  width: 350px;
+  aspect-ratio: 9 / 19.5;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-bottom: 30px solid black;
+  border-top: 30px solid black;
+  box-sizing: content-box;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: black;
+}
+
+iframe {
+  border: none !important;
+}
+
+.dev-message {
+  color: slategray;
+}
+
+mat-card {
+  padding: 50px 50px 50px 50px;
+}
