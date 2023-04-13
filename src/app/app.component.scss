@@ -1,10 +1,12 @@
 .root-container {
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 0 50px 50px 50px;
 }
 
 .ios-frame {
@@ -32,4 +34,5 @@ iframe {
 
 mat-card {
   padding: 50px 50px 50px 50px;
+  margin: 50px 0 50px 0;
 }
